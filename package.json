@@ -1,0 +1,25 @@
+{
+  "name": "paper-proxy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.15.4",
+    "mz": "^2.6.0",
+    "request": "^2.81.0",
+    "request-promise-native": "^1.0.4",
+    "sanitize-filename": "^1.6.1"
+  },
+  "devDependencies": {
+    "eslint-config-benjick": "^1.0.1",
+    "nodemon": "^1.12.0"
+  }
+}
